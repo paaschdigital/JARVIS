@@ -15,4 +15,7 @@ timm==0.6.13
 typeguard==2.13.3
 accelerate==0.18.0
 pytesseract==0.3.10
-gradio==3.24.1
+gradio==4.18.0
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
